@@ -1,36 +1,203 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SunCart - Summer Essentials Store
+## Project Overview
 
-## Getting Started
+SunCart is a simple online store where users can register, login, browse summer products, view product details, add products to cart, and manage their profile information.
+The main theme of the website is summer products such as sunglasses, sunscreen, hats, shirts, water bottles, and beach accessories.
 
-First, run the development server:
+## Main Features
+1. Authentication System
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The website has a simple demo authentication system.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Users can:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Register with name, email, and password
+Login using registered email and password
+Login with Google demo button
+Logout from the website
+Access protected pages only after login
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The authentication data is stored in browser localStorage for demo purposes.
 
-## Learn More
+2. Protected Routes
 
-To learn more about Next.js, take a look at the following resources:
+Some routes are protected. A user must login before accessing these pages:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Home page
+Products page
+Product details page
+My Profile page
+Update Profile page
+Cart page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+If a user is not logged in, they are redirected to the login page.
 
-## Deploy on Vercel
+3. Navbar
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The navbar includes:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+SunCart logo
+Home link
+Products link
+My Profile link
+Cart button with item count
+User avatar after login
+Logout button after login
+Login/Register buttons when logged out
+
+4. Footer
+
+The footer includes:
+
+Website short description
+Contact information
+Quick links
+Social links
+Privacy policy link
+
+5. Home Page
+
+The home page includes:
+
+Summer sale hero section
+“Summer Sale 50% OFF” offer
+“Hot Deals” section
+Popular products section
+Summer care tips section
+Top brands section
+
+The popular products and hot deals use product data from the JSON file.
+
+6. Product Data
+
+Product data is stored in a static JSON file.
+
+File location:
+
+src/app/data/products.json
+
+Each product includes:
+
+id
+name
+brand
+price
+rating
+stock
+description
+image
+category
+
+The project contains at least 6 summer products.
+
+7. Products Page
+
+The products page displays all products from the JSON file.
+
+Each product card shows:
+
+Product image
+Product category
+Product brand
+Product name
+Rating
+Price
+Add button
+Details button
+
+The Details button takes the user to the product details page.
+
+8. Product Details Page
+
+The product details page shows full product information.
+
+It includes:
+
+Product image
+Category
+Brand
+Product name
+Rating
+Stock
+Price
+Description
+Add to Cart button
+
+The Add to Cart button adds the selected product to the cart.
+
+9. Cart System
+
+The cart system is handled using localStorage.
+
+Users can:
+
+Add products to cart
+See cart item count in the navbar
+View selected products on the cart page
+See total items
+See total price
+Remove individual products
+Clear the full cart
+
+When a product is removed, the total item count and total price update automatically.
+
+10. My Profile Page
+
+The My Profile page displays logged-in user information.
+
+It shows:
+
+User name
+User email
+User avatar
+Update information button
+11. Update Profile Feature
+
+The update profile page allows the user to update profile information.
+
+Users can update:
+
+Name
+Email
+Avatar/Image URL
+Password
+
+After updating, the new email and password can be used for login.
+
+12. Toast Notifications
+
+The project uses toast notifications for user feedback.
+
+Examples:
+
+Registration successful
+Login successful
+Logout successful
+Product added to cart
+Item removed from cart
+Profile updated successfully
+Error messages
+Technologies Used
+Frontend
+Next.js
+React
+JavaScript
+Tailwind CSS
+DaisyUI
+Packages
+lucide-react
+react-hot-toast
+lottie-react
+better-auth
+mongodb
+Storage
+Browser localStorage is used for demo authentication and cart data.
+Language Used
+
+## The project is built using:
+
+JavaScript
+JSX
+HTML
+CSS through Tailwind CSS
+JSON
