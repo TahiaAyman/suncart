@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings, beach walks, and daily outdoor use.",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=1200&auto=format&fit=crop",
+    "category": "Accessories"
+  },
+ {
+  "id": 2,
+  "name": "Aloe Vera Sunscreen",
+  "brand": "GlowCare",
+  "price": 22,
+  "rating": 4.8,
+  "stock": 18,
+  "description": "Lightweight aloe vera sunscreen that helps protect your skin during hot sunny days.",
+  "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=1200&auto=format&fit=crop",
+  "category": "Skincare"
+},
+  {
+    "id": 3,
+    "name": "Beach Straw Hat",
+    "brand": "SunnyWear",
+    "price": 18,
+    "rating": 4.6,
+    "stock": 12,
+    "description": "A breathable straw hat designed for beach trips, summer travel, and casual sunny-day styling.",
+    "image": "https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?q=80&w=1200&auto=format&fit=crop",
+    "category": "Accessories"
+  },
+  {
+    "id": 4,
+    "name": "Floral Summer Shirt",
+    "brand": "BreezeFit",
+    "price": 28,
+    "rating": 4.5,
+    "stock": 15,
+    "description": "Soft, lightweight floral summer shirt made for comfortable casual wear in warm weather.",
+    "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=1200&auto=format&fit=crop",
+    "category": "Outfit"
+  },
+  {
+    "id": 5,
+    "name": "Insulated Water Bottle",
+    "brand": "HydroCool",
+    "price": 20,
+    "rating": 4.9,
+    "stock": 25,
+    "description": "Reusable insulated bottle that keeps drinks cool during long summer days and outdoor activities.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?q=80&w=1200&auto=format&fit=crop",
+    "category": "Hydration"
+  },
+  {
+    "id": 6,
+    "name": "Beach Tote Bag",
+    "brand": "WaveCarry",
+    "price": 24,
+    "rating": 4.4,
+    "stock": 9,
+    "description": "Spacious tote bag for carrying towels, sunscreen, water bottles, and other summer essentials.",
+    "image": "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?q=80&w=1200&auto=format&fit=crop",
+    "category": "Beach"
+  }
+]

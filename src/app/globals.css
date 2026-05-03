@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --background: #fff8ed;
+  --foreground: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(255, 209, 102, 0.25), transparent 35%),
+    radial-gradient(circle at top right, rgba(255, 128, 66, 0.18), transparent 30%),
+    var(--background);
+  color: var(--foreground);
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
